@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { PanResponder, View, Animated, StyleSheet, Text } from 'react-native';
-import { TextInput } from 'react-native-web';
 
 export default class DragAndDrop extends Component {
   constructor(props) {

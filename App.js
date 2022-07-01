@@ -1,8 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useEffect } from 'react';
-import { StyleSheet, Text, View, ImageBackground, TouchableWithoutFeedbackBase, Linking } from 'react-native';
-import { ScrollView, TextInput, TouchableHighlight, TouchableOpacity, TouchableWithoutFeedback } from 'react-native-web';
-import DragAndDrop from './components/dragAndDrop';
+import { StyleSheet, Text, View, ImageBackground } from 'react-native';
+import { ScrollView, TouchableOpacity } from 'react-native-web';
 import { Dimensions as RNDimensions } from 'react-native';
 import Folder from './components/folder';
 import FolderOpened from './components/folderOpened';

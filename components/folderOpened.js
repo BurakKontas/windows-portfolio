@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, ImageBackground, Image } from 'react-native';
-import { TextInput, TouchableHighlight, TouchableOpacity } from 'react-native-web';
+import React from 'react';
+import { StyleSheet, View, ImageBackground } from 'react-native';
+import { TouchableOpacity } from 'react-native-web';
 import { Dimensions as RNDimensions } from 'react-native';
 import DragAndDrop from './dragAndDrop';
 import TextApp from './textApp';
@@ -46,7 +46,6 @@ export default function FolderOpened({style,close,open,data}) {
           },
     });
 
-    //<Image source={textIcon} style={styles.image2}/>
     const content = (
     <ImageBackground source={folder} style={styles.image}>
     <TouchableOpacity style={{position:'absolute',top:0,right:0,height:30,width:50}} onPress={close}/>

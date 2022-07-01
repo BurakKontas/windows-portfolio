@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, ImageBackground, Image } from 'react-native';
-import { ScrollView, TextInput, TouchableHighlight, TouchableOpacity } from 'react-native-web';
+import React from 'react';
+import { StyleSheet, Text, View, ImageBackground } from 'react-native';
+import { ScrollView, TouchableOpacity } from 'react-native-web';
 import { Dimensions as RNDimensions } from 'react-native';
 import DragAndDrop from './dragAndDrop';
 

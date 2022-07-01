@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, ImageBackground } from 'react-native';
+import React from 'react';
+import { StyleSheet, View, ImageBackground } from 'react-native';
 import { TextInput } from 'react-native-web';
 import { Dimensions as RNDimensions } from 'react-native';
 
