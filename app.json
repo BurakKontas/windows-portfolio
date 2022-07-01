@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Arda Burak Kontaş",
+    "slug": "portfolio",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "Arda Burak Kontaş"
+}

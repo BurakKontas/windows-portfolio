@@ -1,0 +1,19 @@
+windows kurulabilir websiteye
+kurulmaktan kastım yine react ile yapılacak website ama windowsu canlandırıcak
+tek bir klasör ve çöp kutusu olacak masaüstünde (eklemeler yapılabilir easter egg)
+klasörü açınca mesela txtler çıkar karşısına
+- benim bilgilerim
+- yeteneklerim
+- yaptığım projeler
+- vs vs vs
+sonra bir exe koyarım en altınada oda contact me.exe olur basınca mail atma şeyi çıkar
+
+ilk başta herşey olucak ama stateler ile none yapılacak basıp açınca ise true olup gelicek
+
+(state == false) ? none : {
+    <TXT>
+}
+
+gibi
+
+birini kapatmadan diğerini açtırmıyoruz çünkü sadece 1 tane drag and drop kullanabiliyoruz
